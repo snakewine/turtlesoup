@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6BF526170881C600D51FB7 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF525170881C600D51FB7 /* GraphView.m */; };
 		CEE154601704CB0B00A907FB /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1545B1704CB0B00A907FB /* blueButton.png */; };
 		CEE154611704CB0B00A907FB /* buttonGreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1545C1704CB0B00A907FB /* buttonGreen1.png */; };
 		CEE154621704CB0B00A907FB /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1545D1704CB0B00A907FB /* orangeButton.png */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6BF524170881C600D51FB7 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		CE6BF525170881C600D51FB7 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
 		CEE1545B1704CB0B00A907FB /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		CEE1545C1704CB0B00A907FB /* buttonGreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonGreen1.png; sourceTree = "<group>"; };
 		CEE1545D1704CB0B00A907FB /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
@@ -72,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6BF5231708819E00D51FB7 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				CE6BF524170881C600D51FB7 /* GraphView.h */,
+				CE6BF525170881C600D51FB7 /* GraphView.m */,
+			);
+			name = graph;
+			sourceTree = "<group>";
+		};
 		CEE6A51E17025C500041D77B = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +114,7 @@
 		CEE6A53017025C500041D77B /* graphCaluator */ = {
 			isa = PBXGroup;
 			children = (
+				CE6BF5231708819E00D51FB7 /* graph */,
 				CEE6A55017025F450041D77B /* portrait */,
 				CEE6A53917025C500041D77B /* GCAppDelegate.h */,
 				CEE6A53A17025C500041D77B /* GCAppDelegate.m */,
@@ -223,6 +236,7 @@
 				CEE6A54A17025C500041D77B /* GCDetailViewController.m in Sources */,
 				CEE6A55317025FD10041D77B /* PortraitViewController.m in Sources */,
 				CEE6A5561702601E0041D77B /* BrainCalculator.m in Sources */,
+				CE6BF526170881C600D51FB7 /* GraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

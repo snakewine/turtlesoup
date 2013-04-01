@@ -11,7 +11,5 @@
 @interface GCDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
-
-@property (strong, nonatomic) IBOutlet UIView *landscapeDetail;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

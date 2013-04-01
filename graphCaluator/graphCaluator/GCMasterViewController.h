@@ -13,6 +13,4 @@
 @interface GCMasterViewController : UITableViewController
 
 @property (strong, nonatomic) GCDetailViewController *detailViewController;
-@property (strong, nonatomic) IBOutlet UITableView *landscapeMaster;
-
 @end

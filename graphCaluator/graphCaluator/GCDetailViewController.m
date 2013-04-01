@@ -16,8 +16,6 @@
 @implementation GCDetailViewController
 
 
-
-
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
@@ -50,6 +48,12 @@
     [self configureView];
   
 	// Do any additional setup after loading the view, typically from a nib.
+   
+    
+}
+
+- (void) viewDidAppear:(BOOL)animated{
+
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged:)
@@ -73,7 +77,7 @@
         
     }
     
-    else if (deviceOrientation == UIDeviceOrientationLandscapeLeft){
+    else {
  
      [self dismissViewControllerAnimated:YES completion:nil];
     }
